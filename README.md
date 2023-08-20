@@ -1,4 +1,4 @@
-# reasearch
+_# reasearch
 science land AI bootcamp
 Task 1 : research about statistical test:
 *what is a statistical test ?
@@ -96,4 +96,13 @@ Stochastic gradient descent comes to our rescue !! “Stochastic”, in plain te
 Where can we potentially induce randomness in our gradient descent algorithm??
 Yes, you might have guessed it right !! It is while selecting data points at each step to calculate the derivatives. SGD randomly picks one data point from the whole data set at each iteration to reduce the computations enormously.
 It is also common to sample a small number of data points instead of just one point at each step and that is called “mini-batch” gradient descent. Mini-batch tries to strike a balance between the goodness of gradient descent and speed of SGD.
+____________________________________________________________________________
+Task 5 conditional probability vs Naïve bayers probability
+When to use each one of them?
+*What is the difference between conditional probability and Bayes probability?
+ 
+Conditional probability is the likelihood of an outcome occurring, based on a previous outcome having occurred in similar circumstances. Bayes' theorem provides a way to revise existing predictions or theories (update probabilities) given new or additional evidence.
+*when to use ?
+Bayes' theorem provides a way to revise existing predictions or theories given new or additional evidence. In finance, Bayes' theorem can be used to rate the risk of lending money to potential borrowers. In everyday situations, conditional probability is a probability where additional information is known. Finding the probability of a team scoring better in the next match as they have a former Olympian for a coach is a conditional probability compared to the probability when a random player is hired as a coach. 
+
 
